@@ -15,7 +15,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'corretto'
-          architecture: 'x64'
+          architecture: x64
 
       - name: Build with Maven
         run: mvn clean install
